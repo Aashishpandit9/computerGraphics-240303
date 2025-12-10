@@ -37,7 +37,7 @@ int main()
     for (k = 0; k <= steps; k++)
     {
         putpixel(myround(x), myround(y), RED);
-        delay(50);
+     
         x += xincr;
         y += yincr;
     }
